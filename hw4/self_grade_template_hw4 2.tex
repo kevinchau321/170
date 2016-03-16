@@ -1,0 +1,200 @@
+% Search for all the places that say "PUT SOMETHING HERE".
+
+\documentclass[11pt]{article}
+\usepackage{amsmath,textcomp,amssymb,geometry,graphicx,enumerate,multirow}
+
+\def\Name{NAME}  % Your name
+\def\SID{STUDENT ID}  % Your student ID number
+\def\Login{GRADESCOPE EMAIL} % Your login (your class account, cs170-xy)
+\def\Homework{n} % Number of Homework
+\def\Session{Spring 2015}
+
+
+\title{CS170--Spring 2015 --- Self-grades for Homework \Homework}
+\author{\Name, SID \SID, \texttt{\Login}}
+\markboth{CS170--\Session\  Homework \Homework\ \Name}{CS170--\Session\ Homework \Homework\ \Name, \texttt{\Login}}
+\pagestyle{myheadings}
+\date{}
+
+\newenvironment{qparts}{\begin{enumerate}[{(}a{)}]}{\end{enumerate}}
+\def\endproofmark{$\Box$}
+\newenvironment{proof}{\par{\bf Proof}:}{\endproofmark\smallskip}
+
+\textheight=9in
+\textwidth=6.5in
+\topmargin=-.75in
+\oddsidemargin=0.25in
+\evensidemargin=0.25in
+
+% First argument for both of these commands is the number of rows the text should span.
+\newcommand{\possible}[2]{\multirow{#1}{*}{#2}}
+\newcommand{\outof}[3]{\multirow{#1}{*}{#2/#3}}
+
+\begin{document}
+\maketitle
+
+\section*{Collaborators} 
+(LIST OF YOUR COLLABORATORS, OR WRITE NONE)
+
+\begin{enumerate}
+\item Collaborator 1
+\item Collaborator 2
+\item Collaborator 3
+\end{enumerate}
+
+\newpage
+\section*{Problem 1 solution}
+YOUR ANSWER GOES HERE
+
+\newpage
+\section*{Problem 1 Self Grade}
+\begin{center}
+\begin{tabular}{|p{8cm}|c|c|}
+                                                                            \hline
+   Part                       &  Possible Scores  	 & Your Score \\\hline
+   {\bf Correct ordering (a)}		 &  \possible{2}{0,2} & \outof{2}{YOUR SCORE}{2} \\
+    && \\ \hline
+   {\bf Pre-visit, post-visit and edge labes (b)}  & 	\possible{2}{0,1,2,3,4,5,6,7} & \outof{3}{YOUR SCORE}{7}	\\
+   Deduct 1 point for each incorrect answer && \\ \hline
+   {\bf Correct number of components (c)}    &  \possible{3}{0,1} & \outof{3}{YOUR SCORE}{1} \\
+   &&\\\hline
+\end{tabular}
+\vspace*{0.2 cm}\\
+No redemption points for problem 1.
+\end{center}
+
+\newpage
+\section*{Problem 2 solution}
+YOUR ANSWER GOES HERE
+
+\newpage
+\section*{Problem 2 Self Grade}
+
+\begin{center}
+\begin{tabular}{|p{8cm}|c|c|}
+                                                                            \hline
+   Part                       &  Possible Scores  	 & Your Score \\\hline
+   {\bf(a)  Correct answer} 	 &  \possible{3}{0,2} & \outof{3}{YOUR SCORE}{2} \\
+    && \\ \hline
+   {\bf Proof}  & 	\possible{2}{0,6} & \outof{2}{YOUR SCORE}{6}	\\
+   Complete proof of correctness && \\ \hline
+   {\bf Runtime Analysis}    &  \possible{2}{0,2} & \outof{2}{YOUR SCORE}{2} \\
+    No points if answer is wrong &&\\\hline
+
+   {\bf(b) Correct answer} 	 &  \possible{3}{0,2} & \outof{3}{YOUR SCORE}{2} \\
+    && \\ \hline
+   {\bf Proof}  & 	\possible{2}{0,6} & \outof{2}{YOUR SCORE}{6}	\\
+   Complete proof of correctness && \\ \hline
+   {\bf Runtime Analysis}    &  \possible{2}{0,2} & \outof{2}{YOUR SCORE}{2} \\
+   No points if answer is wrong &&\\\hline
+\end{tabular}
+\vspace*{0.2 cm}\\
+No redemption points for problem 2.
+\end{center}
+
+
+\newpage
+\section*{Problem 3 solution}
+YOUR ANSWER GOES HERE
+
+\newpage
+\section*{Problem 3 Self Grade}
+\begin{center}
+\begin{tabular}{|p{8cm}|c|c|}
+                                                                            \hline
+   Part                       &  Possible Scores  	 & Your Score \\\hline
+   {\bf Correct algorithm and Analysis} 	 &  \possible{3}{0,2,5,8,10} & \outof{3}{YOUR SCORE}{10} \\
+   Gave correct algorithm with pseudocode and linear runtime  && \\ \hline
+
+\end{tabular}
+\vspace*{0.2 cm}\\
+No redemption points for problem 3.
+\end{center}
+
+\newpage
+\section*{Problem 4 solution}
+YOUR ANSWER GOES HERE
+
+
+\newpage
+\section*{Problem 4 Self Grade}
+\begin{center}
+\begin{tabular}{|p{8cm}|c|c|}
+                                                                            \hline
+   Part                       &  Possible Scores  	 & Your Score \\\hline
+   {\bf  Setting usp[$v$] correctly} 	 &  \possible{3}{0,2,5,8,10} & \outof{3}{YOUR SCORE}{10} \\
+   Gave correct algorithm in correct format && \\ \hline
+   {\bf Proof}  & 	\possible{2}{0,7} & \outof{2}{YOUR SCORE}{7}	\\
+   Proof of correctness && \\ \hline
+   {\bf Correct runtime anlaysis}    &  \possible{2}{0,3} & \outof{2}{YOUR SCORE}{3} \\
+    &&\\\hline
+\end{tabular}
+\vspace*{0.2 cm}\\
+Redemption points: YOUR REDEMPTION POINTS
+\end{center}
+
+\section*{Problem 4 Redemption Text}
+REDEMPTION TEXT GOES HERE
+
+\newpage
+\section*{Problem 5 solution}
+YOUR ANSWER GOES HERE
+
+
+\newpage
+\section*{Problem 5 Self Grade}
+\begin{center}
+\begin{tabular}{|p{8cm}|c|c|}
+                                                                            \hline
+   Part                       &  Possible Scores  	 & Your Score \\\hline
+   {\bf Correct Proof (a)} 	 &  \possible{3}{0,4} & \outof{3}{YOUR SCORE}{4} \\
+  && \\ \hline
+   {\bf Correct Proof (b)} 	 &  \possible{3}{0,4} & \outof{3}{YOUR SCORE}{4} \\
+  && \\ \hline
+   {\bf Correct 'if' Proof (c)} 	 &  \possible{3}{0,2} & \outof{3}{YOUR SCORE}{2} \\
+  && \\ \hline
+   {\bf Correct ``only if" Proof (c)} 	 &  \possible{3}{0,2} & \outof{3}{YOUR SCORE}{2} \\
+  && \\ \hline
+   {\bf Correct 'if' Proof (d)} 	 &  \possible{3}{0,2} & \outof{3}{YOUR SCORE}{2} \\
+  && \\ \hline
+   {\bf Correct ``only if" Proof (d)} 	 &  \possible{3}{0,2} & \outof{3}{YOUR SCORE}{2} \\
+  && \\ \hline
+   {\bf  computing {\tt low}[.] in linear time (e)}  & 	\possible{2}{0,3} & \outof{2}{YOUR SCORE}{3}	\\
+ && \\ \hline
+   {\bf  identifying separating vertices and biconnected components in linear time (e)}    &  \possible{2}{0,4} & \outof{2}{YOUR SCORE}{4} \\
+ &&\\\hline
+   {\bf  proving algorithm correctness (e)}    &  \possible{2}{0,4} & \outof{2}{YOUR SCORE}{4} \\
+ &&\\\hline
+   {\bf  correct time analysis (e)}    &  \possible{2}{0,3} & \outof{2}{YOUR SCORE}{3} \\
+ &&\\\hline
+\end{tabular}
+\vspace*{0.2 cm}\\
+Redemption points: YOUR REDEMPTION POINTS
+\end{center}
+
+\section*{Problem 5 Redemption Text}
+REDEMPTION TEXT GOES HERE
+
+
+
+\newpage
+\section*{Problem 6 solution}
+YOUR ANSWER GOES HERE
+
+\newpage
+\section*{Problem 6 Self Grade}
+\begin{center}
+\begin{tabular}{|p{8cm}|c|c|}
+                                                                            \hline
+   Part                       &  Possible Scores  	 & Your Score \\\hline
+   {\bf Correct algorithm} 	 &  \possible{3}{0,1} & \outof{3}{YOUR SCORE}{1} \\
+   any correct algorithm not slower than $O(k(|V|+|E|+|E'|)\log k|V|)$.  && \\ \hline
+
+\end{tabular}
+\vspace*{0.2 cm}\\
+No redemption points for problem 6.
+\end{center}
+
+
+
+\end{document}

@@ -1,0 +1,160 @@
+% Search for all the places that say "PUT SOMETHING HERE".
+
+\documentclass[11pt]{article}
+\usepackage{amsmath,textcomp,amssymb,geometry,graphicx,enumerate,multirow}
+
+\def\Name{NAME}  % Your name
+\def\SID{STUDENT ID}  % Your student ID number
+\def\Login{GRADESCOPE EMAIL} % Your Gradescope email
+\def\Homework{n} % Number of Homework
+\def\Session{Spring 2015}
+
+
+\title{CS170--Spring 2015 --- Self-grades for Homework \Homework}
+\author{\Name, SID \SID, \texttt{\Login}}
+\markboth{CS170--\Session\  Homework \Homework\ \Name}{CS170--\Session\ Homework \Homework\ \Name, \texttt{\Login}}
+\pagestyle{myheadings}
+\date{}
+
+\newenvironment{qparts}{\begin{enumerate}[{(}a{)}]}{\end{enumerate}}
+\def\endproofmark{$\Box$}
+\newenvironment{proof}{\par{\bf Proof}:}{\endproofmark\smallskip}
+
+\textheight=9in
+\textwidth=6.5in
+\topmargin=-.75in
+\oddsidemargin=0.25in
+\evensidemargin=0.25in
+
+% First argument for both of these commands is the number of rows the text should span.
+\newcommand{\possible}[2]{\multirow{#1}{*}{#2}}
+\newcommand{\outof}[3]{\multirow{#1}{*}{#2/#3}}
+
+\begin{document}
+\maketitle
+
+\section*{Collaborators} 
+(LIST OF YOUR COLLABORATORS, OR WRITE NONE)
+
+\begin{enumerate}
+\item Collaborator 1
+\item Collaborator 2
+\item Collaborator 3
+\end{enumerate}
+
+\newpage
+\section*{Problem 1 solution}
+YOUR ANSWER GOES HERE
+
+\newpage
+\section*{Problem 1 Self Grade}
+\begin{center}
+\begin{tabular}{|p{8cm}|c|c|}
+                                                                            \hline
+   Part                       &  Possible Scores  	 & Your Score \\\hline
+   {\bf Pseudocode (a)}		 &  \possible{2}{0,5} & \outof{2}{YOUR SCORE}{5} \\
+   Fully correct pseudocode && \\ \hline
+   {\bf Correct Polynomials (b)}  & 	\possible{3}{0,5} & \outof{3}{YOUR SCORE}{5}	\\
+   Observed how to choose polynomials as in the solution && \\ \hline
+   {\bf Correct algorithm (c)}    &  \possible{3}{0,2,5,8,10} & \outof{3}{YOUR SCORE}{10} \\
+   Gave a correct algorithm in the correct format, with a valid proof and runtime justification. &&\\\hline
+   {\bf Correct algorithm (d)}    &  \possible{3}{0,2,5,8,10} & \outof{3}{YOUR SCORE}{10} \\
+   Gave a correct algorithm in the correct format, with a valid proof and runtime justification. &&\\\hline
+\end{tabular}
+\vspace*{0.2 cm}\\
+Redemption points: YOUR REDEMPTION POINTS
+\end{center}
+
+\section*{Problem 1 Redemption Text}
+REDEMPTION TEXT GOES HERE
+
+\newpage
+\section*{Problem 2 solution}
+YOUR ANSWER GOES HERE
+
+\newpage
+\section*{Problem 2 Self Grade}
+\begin{center}
+\begin{tabular}{|p{8cm}|c|c|}
+                                                                            \hline
+   Part                       &  Possible Scores  	 & Your Score \\\hline
+   {\bf Correct algorithm} 	 &  \possible{3}{0,2,5,8,10} & \outof{3}{YOUR SCORE}{10} \\
+   Gave correct algorithm with pseudocode, with runtime fulfilling the requirements stated && \\ \hline
+   {\bf Proof}  & 	\possible{2}{0,3,5} & \outof{2}{YOUR SCORE}{5}	\\
+   Complete proof of correctness && \\ \hline
+   {\bf Runtime}    &  \possible{2}{0,5} & \outof{2}{YOUR SCORE}{5} \\
+   Correct runtime with justification. &&\\\hline
+\end{tabular}
+\vspace*{0.2 cm}\\
+Redemption points: YOUR REDEMPTION POINTS
+\end{center}
+
+\section*{Problem 2 Redemption Text}
+REDEMPTION TEXT GOES HERE
+
+\newpage
+\section*{Problem 3 solution}
+YOUR ANSWER GOES HERE
+
+\newpage
+\section*{Problem 3 Self Grade}
+\begin{center}
+\begin{tabular}{|p{8cm}|c|c|}
+                                                                            \hline
+   Part                       &  Possible Scores  	 & Your Score \\\hline
+   {\bf Correct algorithm} 	 &  \possible{3}{0,2,5,8,10} & \outof{3}{YOUR SCORE}{10} \\
+   Gave correct algorithm with pseudocode, with runtime fulfilling the requirements stated && \\ \hline
+   {\bf Proof}  & 	\possible{2}{0,3,5} & \outof{2}{YOUR SCORE}{5}	\\
+   Complete proof of correctness && \\ \hline
+   {\bf Runtime}    &  \possible{2}{0,5} & \outof{2}{YOUR SCORE}{5} \\
+   Correct runtime with justification. &&\\\hline
+\end{tabular}
+\vspace*{0.2 cm}\\
+No redemption points for problem 3.
+\end{center}
+
+\newpage
+\section*{Problem 4 solution}
+YOUR ANSWER GOES HERE
+
+\newpage
+\section*{Problem 4 Self Grade}
+\begin{center}
+\begin{tabular}{|p{8cm}|c|c|}
+                                                                            \hline
+   Part                       &  Possible Scores  	 & Your Score \\\hline
+   {\bf Correct algorithm} 	 &  \possible{3}{0,2,5,8,10} & \outof{3}{YOUR SCORE}{10} \\
+   Gave correct algorithm in correct format, with valid proof and runtime justification && \\ \hline
+
+\end{tabular}
+\vspace*{0.2 cm}\\
+No redemption points for problem 4.
+\end{center}
+
+\newpage
+\section*{Problem 5 solution}
+YOUR ANSWER GOES HERE
+
+\newpage
+\section*{Problem 5 Self Grade}
+\begin{center}
+\begin{tabular}{|p{8cm}|c|c|}
+                                                                            \hline
+   Part                       &  Possible Scores  	 & Your Score \\\hline
+   {\bf Correct algorithm (a)} 	 &  \possible{3}{0,2,5,8,10} & \outof{3}{YOUR SCORE}{10} \\
+   Gave correct algorithm in correct format, with valid proof and runtime justification && \\ \hline
+   {\bf Proof (b)}  & 	\possible{2}{0,3,5} & \outof{2}{YOUR SCORE}{5}	\\
+   Proof of formulation is correct && \\ \hline
+   {\bf Correct number of colors (c)}    &  \possible{2}{0,5} & \outof{2}{YOUR SCORE}{5} \\
+   Correct answer with justification. &&\\\hline
+\end{tabular}
+\vspace*{0.2 cm}\\
+Redemption points: YOUR REDEMPTION POINTS
+\end{center}
+
+\section*{Problem 5 Redemption Text}
+REDEMPTION TEXT GOES HERE
+
+
+
+\end{document}
